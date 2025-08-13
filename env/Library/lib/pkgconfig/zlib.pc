@@ -1,0 +1,13 @@
+prefix=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Document_Portal/env/Library
+exec_prefix=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Document_Portal/env/Library
+libdir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Document_Portal/env/Library/lib
+sharedlibdir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Document_Portal/env/Library/lib
+includedir=D:/KrishNayekAcademy/LLMOPS_Industry_Ready_Projects/Document_Portal/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
